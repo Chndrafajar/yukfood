@@ -5,7 +5,7 @@ import Payment from 'parts/Checkout/Payment';
 import Completed from 'parts/Checkout/Completed';
 import Button from 'elements/Button';
 import Stepper, { Controller, MainContent, Meta, Numbering } from 'elements/Stepper';
-import { Fade } from 'react-reveal';
+
 import { connect } from 'react-redux';
 import { Player } from '@lottiefiles/react-lottie-player';
 import { submitOrder } from 'store/actions/checkout';
@@ -124,11 +124,11 @@ class Checkout extends Component {
               {CurrentStep === 'orderInformation' && (
                 <Controller>
                   {data.firstName !== '' && data.lastName !== '' && data.email !== '' && data.phone !== '' && data.alamat !== '' && (
-                    <Fade>
+                    <>
                       <Button className="btn mb-3" type="button" isBlock isPrimary hasShadow onClick={nextStep}>
                         Continue to Book
                       </Button>
-                    </Fade>
+                    </>
                   )}
                   <Button className="btn d-flex justify-content-center align-items-center" type="link" isBlock isLight href={`/detail/${checkout._id}`}>
                     Cancel
@@ -139,11 +139,11 @@ class Checkout extends Component {
               {CurrentStep === 'payment' && (
                 <Controller>
                   {data.proofPayment !== '' && data.bankName !== '' && data.bankHolder !== '' && (
-                    <Fade>
+                    <>
                       <Button className="btn mb-3" type="button" onClick={() => this._Submit(nextStep)} isPrimary isBlock hasShadow>
                         Continue to Book
                       </Button>
-                    </Fade>
+                    </>
                   )}
                   <Button className="btn" type="button" isBlock isLight onClick={prevStep}>
                     Cancel

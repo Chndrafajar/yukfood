@@ -1,5 +1,4 @@
 import React from 'react';
-import { Fade } from 'react-reveal';
 
 import Button from 'elements/Button';
 
@@ -14,7 +13,7 @@ export default function Hero(props) {
   }
 
   return (
-    <Fade bottom>
+    <>
       <div className="container">
         <div className="row rowHero">
           <div className="col-md-6 d-flex align-items-center heroTittle">
@@ -34,6 +33,6 @@ export default function Hero(props) {
           </div>
         </div>
       </div>
-    </Fade>
+    </>
   );
 }

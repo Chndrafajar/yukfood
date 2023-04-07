@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Button from 'elements/Button';
-import { Fade } from 'react-reveal';
 import IconText from './IconText';
 import BarsIcon from 'assets/images/icons/bars-solid.svg';
 import Xicons from 'assets/images/icons/x-solid.svg';
@@ -10,7 +9,7 @@ export default function Header(props) {
 
   if (props.isCentered)
     return (
-      <Fade>
+      <>
         <header className="spacing-sm">
           <div className="container">
             <div className="navbar navbar-expand-lg navbar-light">
@@ -20,12 +19,12 @@ export default function Header(props) {
             </div>
           </div>
         </header>
-      </Fade>
+      </>
     );
 
   return (
     <>
-      <Fade>
+      <>
         <header className="spacing-sm">
           <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light">
@@ -56,7 +55,7 @@ export default function Header(props) {
             </nav>
           </div>
         </header>
-      </Fade>
+      </>
 
       <div className={'navMobile ' + (menuOpen && 'active')}>
         <ul>
