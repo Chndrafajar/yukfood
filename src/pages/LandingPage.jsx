@@ -7,7 +7,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchPage } from 'store/actions/page';
 
-import landingPage from 'json/landingPage.json';
 import Footer from 'parts/Footer';
 import MostPopular from 'parts/MostPopular';
 

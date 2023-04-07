@@ -2,10 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import PageDetailTittle from 'parts/PageDetailTittle';
-import ItemDetails from 'json/itemDetails.json';
 import FeaturedImage from 'parts/FeaturedImage';
 import OrderFood from 'parts/OrderFood';
-import Categories from 'parts/Categories';
 import Header from 'parts/Header';
 import Footer from 'parts/Footer';
 

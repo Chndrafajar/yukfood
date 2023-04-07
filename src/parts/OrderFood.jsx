@@ -47,7 +47,7 @@ class OrderFood extends Component {
 
   render() {
     const { data } = this.state;
-    const { itemDetails, startOrder } = this.props;
+    const { itemDetails } = this.props;
 
     return (
       <div className="card bordered orderFood mt-3">
