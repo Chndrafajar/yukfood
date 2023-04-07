@@ -1,0 +1,102 @@
+{
+  "categories": [
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Makanan",
+      "items": [
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Nachos",
+          "imageUrl": "/images/categories/makanan/1.png",
+          "price": "15",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Pizza",
+          "imageUrl": "/images/categories/makanan/1.png",
+          "price": "10",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Burger",
+          "imageUrl": "/images/categories/makanan/1.png",
+          "price": "8",
+          "isPopular": true
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Kebab",
+          "imageUrl": "/images/categories/makanan/1.png",
+          "price": "12",
+          "isPopular": false
+        }
+      ]
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Minuman",
+      "items": [
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Es Teh",
+          "imageUrl": "/images/categories/minuman/1.jpg",
+          "price": "5",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Teh Manis",
+          "imageUrl": "/images/categories/minuman/1.jpg",
+          "price": "4",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Es Kopi",
+          "imageUrl": "/images/categories/minuman/1.jpg",
+          "price": "6",
+          "isPopular": true
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Kopi",
+          "imageUrl": "/images/categories/minuman/1.jpg",
+          "price": "5",
+          "isPopular": false
+        }
+      ]
+    }
+  ],
+  "mostPopular": [
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Nachos",
+      "type": "Makanan",
+      "imageUrl": "/images/categories/minuman/1.jpg",
+      "diskon": "25"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Es Kopi",
+      "type": "Minuman",
+      "imageUrl": "/images/categories/minuman/1.jpg",
+      "diskon": "25"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Es Teh",
+      "type": "Minuman",
+      "imageUrl": "/images/categories/minuman/1.jpg",
+      "diskon": "25"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Es Teh",
+      "type": "Minuman",
+      "imageUrl": "/images/categories/minuman/1.jpg",
+      "diskon": "25"
+    }
+  ]
+}

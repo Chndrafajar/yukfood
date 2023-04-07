@@ -1,0 +1,50 @@
+{
+  "_id": "asd1293uasdads1",
+  "name": "Nachos",
+  "type": "Makanan",
+  "imageUrls": [
+    {
+      "_id": "asd1293uasdads1",
+      "url": "/images/categories/makanan/1.png"
+    }
+  ],
+  "price": "15",
+  "unit": "food",
+  "isPopular": true,
+  "categories": [
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Makanan",
+      "items": [
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Nachos",
+          "imageUrl": "/images/categories/makanan/1.png",
+          "price": "15",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Pizza",
+          "imageUrl": "/images/categories/makanan/1.png",
+          "price": "10",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Burger",
+          "imageUrl": "/images/categories/makanan/1.png",
+          "price": "8",
+          "isPopular": true
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Kebab",
+          "imageUrl": "/images/categories/makanan/1.png",
+          "price": "12",
+          "isPopular": false
+        }
+      ]
+    }
+  ]
+}
