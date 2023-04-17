@@ -12,7 +12,7 @@ export default function Categories({ data }) {
             {category.itemId.map((item, index2) => {
               return (
                 <div className="col-md-3 col-6 mt-2" key={`category-${index1}-item-${index2}`}>
-                  <div className="card shadow cardCategories">
+                  <div className="card">
                     {item.isPopular && (
                       <div className="tag">
                         Popular <span className="font-weight-light">Food</span>
@@ -21,13 +21,15 @@ export default function Categories({ data }) {
                     <figure className="img-wrapper">
                       <img src={item.imageId[0] ? `${process.env.REACT_APP_HOST}/${item.imageId[0].imageUrl}` : ''} alt={item.name} />
                     </figure>
-                    <div>
+                  </div>
+                  <div className="card-body shadow">
+                    <div className="titleCategories">
                       <div className="titleBuy">
                         <Button style={{ color: '#152c5b' }} type="link" href={`/detail/${item._id}`}>
                           <span>{item.title}</span>
                         </Button>
                       </div>
-                      <div className="titleProduk mt-2 d-flex justify-content-between">
+                      <div className="titleProduk  d-flex justify-content-between">
                         <Button style={{ color: '#152c5b' }} type="link" href={`/detail/${item._id}`}>
                           <span>${item.price}</span>
                         </Button>

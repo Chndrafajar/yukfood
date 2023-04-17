@@ -232,20 +232,18 @@ header {
   }
 }
 
-.card {
-  padding: 8px;
-  border-radius: 10px;
-}
-
 .cardCategories:hover {
   scale: 1.03;
   transition: all 0.4s ease-out;
   cursor: pointer;
 }
 
+.card {
+  border-radius: 0rem;
+}
+
 .card .img-wrapper img {
   width: 100%;
-  border-radius: 10px;
 }
 
 //detail page
